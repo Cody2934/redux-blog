@@ -30,7 +30,7 @@ describe('post actions', () => {
       type: UPDATE_POST,
       payload: { 
         index: 3,
-        body: 'this is an update'
+        post: 'this is an update'
       }
     });
   });
